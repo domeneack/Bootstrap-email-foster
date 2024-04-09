@@ -1,0 +1,23 @@
+.compose {
+    display: grid;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+    padding-top: 20px;
+    
+}
+
+#white {
+    background-color: beige;
+}
+
+#blue {
+    background-color: darkblue;
+}
+
+#gray {
+    background-color: gray;
+}
