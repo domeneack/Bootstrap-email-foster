@@ -21,3 +21,10 @@ li {
 #gray {
     background-color: gray;
 }
+
+@media (min-width: 375px
+) and (max-width: 767px) {
+    .travel {
+        display: none;
+    }
+}
