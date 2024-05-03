@@ -22,4 +22,13 @@ li {
     background-color: gray;
 }
 
+@media (min-width: 768px) and (max-width: 874px) {
+  .adventure { 
+    font-size: 22px;
+  } 
+}
+    
+        
+        
+    
 
