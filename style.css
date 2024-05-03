@@ -22,8 +22,4 @@ li {
     background-color: gray;
 }
 
-@media (max-width: 767px) {
-    .travel {
-        display: none;
-    }
-}
+
