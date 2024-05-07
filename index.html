@@ -21,7 +21,7 @@
     <div class="container-fluid">
         <i class="fa-solid fa-plane"> MAIL EXPRESS</i>
 
-        </i>
+      
 
         <form class="d-flex justify-content-center" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -31,63 +31,55 @@
 </nav>
     <!--Inbox List-->
 
-    <div class="container-fluid compose-menu">
-        <div class="row">
-            <div class="col-sm-4 col-md-2 col-lg-2 text-bg-dark">
-                <input type="button" value="Compose" class="btn btn-primary mt-3">
-                <ul>
-                    <li>
-                        <a>Inbox</a>
-                    </li>
-                    <li>
-                        <a>Starred</a>
-                    </li>
-                    <li>
-                        <a>Snoozed</a>
-                    </li>
-                    <li>
-                        <a>Important</a>
-                    </li>
-                    <li>
-                        <a>Sent</a>
-                    </li>
-                </ul>
-            </div>
+<div class="container-fluid compose-menu">
+    <div class="row">
+        <div class="col-sm-4 col-md-2 col-lg-2 text-bg-dark">
+            <input href="#" type="button" value="Compose" class="btn btn-primary mt-3">
+            <ul>
+                <li>
+                    <a href="#">Inbox</a>
+                </li>
+                <li>
+                    <a href="#">Starred</a>
+                </li>
+                <li>
+                    <a href="#">Snoozed</a>
+                </li>
+                <li>
+                    <a href="#">Important</a>
+                </li>
+                <li>
+                    <a href="#">Sent</a>
+                </li>
+            </ul>
+        </div>
             <div class="col-sm-8 col-md-4 col-lg-4 bg-primary email-list">
                 <div class="container">
-                    <h5 class="fs-4 mt-3 text-center text-light">Inbox</h5>
+                    <h5 class="inbox">Inbox</h5>
                     <ul>
                         <li class="btn btn-light text-start mt-3">
-                            <a class="text-primary text-decoration-none fs-5 fw-bold">LinkedIn </a>
-                            <span class="text-end m-4 fw-bold">02:45pm</span>
+                            <a class="email-title">LinkedIn </a>
+                            <span class="time">02:45pm</span>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolorum officiis optio
                                 quidem ab sapiente itaque et voluptatum ipsam!
                             </p>
                         </li>
                         <li class="btn btn-light text-start mt-3">
-                            <a class="text-primary text-decoration-none fs-5 fw-bold text">
+                            <a class="email-title">
                                 Travelocity
                             </a>
-                            <span class="text-end m-4 fw-bold">01:30pm</span>
-                            
+                            <span class="time">01:30pm</span>
+            
                             <p>
-                                <span class="fw-bold">Plan Your Next Great Road Trip</span> — Get Great Deals on Hotels, Flights, Packages & More. Search & Book with Travelocity
-                                today! 
+                                <span class="fw-bold">Plan Your Next Great Road Trip</span> — Get Great Deals on Hotels, Flights,
+                                Packages & More. Search & Book with Travelocity
+                                today!
                             </p>
                         </li>
                         <li class="btn btn-light text-start mt-3">
-                            <a class="text-primary fs-5 fw-bold text text-decoration-none">Affirm</a>
-                            <span class="text-end m-4 fw-bold">11:20am</span>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolorum officiis optio
-                                quidem ab sapiente itaque et
-                                voluptatum ipsam!
-                            </p>
-                        </li>
-                        <li class="btn btn-light text-start mt-3">
-                            <a class="text-primary fs-5 fw-bold text text-decoration-none">Bath&BodyWorks</a>
-                            <span class="text-end m-4 fw-bold">09:10am</span>
+                            <a class="email-title">Affirm</a>
+                            <span class="time">11:20am</span>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolorum officiis optio
                                 quidem ab sapiente itaque et
@@ -95,8 +87,17 @@
                             </p>
                         </li>
                         <li class="btn btn-light text-start mt-3">
-                            <a class="text-primary fs-5 fw-bold text text-decoration-none">Charles Ford</a>
-                            <span class="text-end m-4 fw-bold">06:52am</span>
+                            <a class="email-title">Bath&BodyWorks</a>
+                            <span class="time">09:10am</span>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolorum officiis optio
+                                quidem ab sapiente itaque et
+                                voluptatum ipsam!
+                            </p>
+                        </li>
+                        <li class="btn btn-light text-start mt-3">
+                            <a class="email-title">Charles Ford</a>
+                            <span class="time">06:52am</span>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolorum officiis optio
                                 quidem ab sapiente itaque et
@@ -107,38 +108,44 @@
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 border text-bg-light travel">
-                        <div class="mailbox">
-                            <h4 class="m-3 border-bottom text-primary">Travelocity <i class="fa-solid fa-plane-departure ms-2 mb-2">
-                            </i> <span>
-                                <button class="btn btn-primary m-2">Reply</button>
-                            </span>   
-                            </h4> 
+                <div class="mailbox">
+                    <div class="email-header"> <h4 class="travelocity border-bottom text-primary">Travelocity</h4> <i  class="fa-solid fa-plane-departure" id="plane-icon"></i> 
+                        <span>
+                            <button class="reply btn btn-primary">Reply</button>
+                        </span>
+                    </div>
+                   
+                    
                             
                             
-                            <p class="m-3">
+                            <p class="inbox-paragraph">
                             <span class="fw-bold">Plan Your Next Great Road Trip</span> — Get Great Deals on Hotels, Flights, Packages & More. Search & Book with Travelocity
                             today! Experience the Destination You Want at a Price You’ll Love and Gather Glittering Memories.
                             </p>
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSme3JlZHGisJArLbwpVYWQYv8tRd8ot1ncdXbUB4k9W_pFYv9O" width="100%" height="auto" alt="tropical beach">
 
                             <h3 class="text-center mt-3 adventure">Start your adventure today!
-                            <i class="fa-sharp fa-solid fa-reply fa-xs m-2 "></i><i class="fa-regular fa-trash-can fa-xs m-2 "></i>
+                            
                             </h3>
 
                         
 
                         </div>
-                        <div class="container-fluid mb-5">
-                            <textarea  class="form-control mx-auto" style="display: block; width: 50%;" rows="3" name="" id="" cols="30" rows="10">
-                              
-                            </textarea>
+                        <div class="container">
+                            <textarea  class="form-control mx-auto" style="display: block; width: 50%;" rows="3" name="" id="" cols="30" rows="10"></textarea>
+                            
+                            <div class="delete-reply">
+                                <i class="fa-sharp fa-solid fa-reply fa-xs m-2 "></i><i class="fa-regular fa-trash-can fa-xs m-2 ">
+
+                                </i>
+                            </div>
                            
                             
                                 
                            
                         </div>
                     </div>
-            </div>
+            
         </div>
     
 

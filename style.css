@@ -22,10 +22,73 @@ li {
     background-color: gray;
 }
 
-@media (min-width: 768px) and (max-width: 874px) {
+textarea {
+    display:block;
+    width: 100%;
+    color: black;
+}
+
+.inbox {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;;
+    margin: 20px;
+}
+
+.time {
+    display: flex;
+    font-weight: bold;
+    margin: 5px;
+    align-items: start;
+
+}
+
+.delete-reply {
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.email-title {
+    color: primary;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.email-header {
+    display:flex;
+    justify-content: space-around;
+}
+
+.travelocity {
+    margin-top: 15px;
+}
+
+.reply {
+    margin: 10px;
+}
+
+.inbox-paragraph {
+    margin-top: 20px;
+}
+#plane-icon {
+    color: blue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+}
+
+
+@media (max-width: 767px) {
   .adventure { 
     font-size: 22px;
   } 
+
+  
 }
     
         
